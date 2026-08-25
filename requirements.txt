@@ -1,0 +1,43 @@
+# ---------- UI ----------
+streamlit>=1.37.0
+
+# ---------- Video/Audio acquisition ----------
+yt-dlp>=2024.8.6
+ffmpeg-python>=0.2.0
+
+# ---------- Local Whisper transcription ----------
+openai-whisper>=20231117
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# ---------- Hindi -> English translation ----------
+transformers>=4.42.0
+sentencepiece>=0.2.0
+
+# ---------- LangChain / LCEL summarization pipeline ----------
+langchain>=0.2.14
+langchain-core>=0.2.38
+langchain-community>=0.2.12
+
+# ---------- LLM provider ----------
+# Uncomment the one you actually use:
+# langchain-groq>=0.1.9
+# langchain-google-genai>=1.0.10
+# langchain-openai>=0.1.22
+# huggingface-hub>=0.24.5
+
+# ---------- RAG: embeddings + vector store ----------
+chromadb>=0.5.5
+sentence-transformers>=3.0.1
+langchain-huggingface>=0.0.3
+
+# ---------- Export (PDF / TXT) ----------
+fpdf2>=2.7.9
+reportlab>=4.2.2
+
+# ---------- General utilities ----------
+python-dotenv>=1.0.1
+pydub>=0.25.1
+numpy>=1.26.4
+pandas>=2.2.2
+tqdm>=4.66.5

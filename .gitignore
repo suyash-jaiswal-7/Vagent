@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vagent generated cache
+meeting_cache/
+vector_db/
+
+# Downloaded media
+downloads/
+
+# Audio / video files
+*.wav
+*.mp3
+*.mp4
+*.webm
+*.m4a
+
+# Streamlit secrets
+.streamlit/secrets.toml
