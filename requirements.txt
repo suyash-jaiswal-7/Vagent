@@ -20,11 +20,8 @@ langchain-core>=0.2.38
 langchain-community>=0.2.12
 
 # ---------- LLM provider ----------
-# Uncomment the one you actually use:
-# langchain-groq>=0.1.9
-# langchain-google-genai>=1.0.10
-# langchain-openai>=0.1.22
-# huggingface-hub>=0.24.5
+langchain-mistralai
+sarvamai
 
 # ---------- RAG: embeddings + vector store ----------
 chromadb>=0.5.5
