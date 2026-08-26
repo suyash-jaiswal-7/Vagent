@@ -2,7 +2,7 @@
 streamlit>=1.37.0
 
 # ---------- Video/Audio acquisition ----------
-yt-dlp>=2024.8.6
+yt-dlp
 ffmpeg-python>=0.2.0
 
 # ---------- Local Whisper transcription ----------
