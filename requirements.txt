@@ -25,6 +25,7 @@ sarvamai
 
 # ---------- RAG: embeddings + vector store ----------
 chromadb>=0.5.5
+langchain-chroma
 sentence-transformers>=3.0.1
 langchain-huggingface>=0.0.3
 
